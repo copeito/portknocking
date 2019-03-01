@@ -33,5 +33,6 @@ EXPOSE 22
 ADD start.sh /start.sh
 ADD ssh_start.sh /ssh_start.sh
 ADD ssh_stop.sh /ssh_stop.sh
+ADD etc/knockd.conf /etc/knockd.conf
 
 CMD "/start.sh"
